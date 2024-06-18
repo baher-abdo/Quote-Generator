@@ -1,0 +1,26 @@
+body {
+  font-family: "Krub", sans-serif !important;
+  background-color: #fac55c62 !important;
+}
+#quote-content .icon::after {
+  content: "\f10e";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 10rem;
+  position: absolute;
+  opacity: 0.1;
+  bottom: 0;
+  right: 0;
+  transform: translate(-10px, 50px);
+}
+#quote-content .icon::before {
+  content: "\f10d";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 10rem;
+  position: absolute;
+  opacity: 0.1;
+  top: 0;
+  left: 0;
+  transform: translate(10px, -50px);
+}

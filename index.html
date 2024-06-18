@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quote Generator</title>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Maven+Pro:wght@400..900&family=Mitr:wght@200;300;400;500;600;700&family=Mukta+Malar:wght@200;300;400;500;600;700;800&family=News+Cycle:wght@400;700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Staatliches&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+  <section class="text-center py-5">
+    <div class="container">
+      <h1 class="display-1 fw-bold main-title text-black">Quote of the Day</h1>
+      <p class="fs-4 text-muted fw-medium">Press the button below to recieve a random quote!</p>
+    </div>
+    <button onclick="getQuote()" class="btn btn-primary fs-5">New Quote</button>
+    <div id="quote-content" class="container bg-info-subtle rounded-3 py-5 mt-3 position-relative shadow">
+
+    </div>
+  </section>
+  <script src="js/main.js"></script>
+</body>
+</html>
